@@ -1,0 +1,17 @@
+
+ Info : 3:16:26 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:18:09 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:18:47 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:24:06 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:25:49 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:26:59 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:31:06 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:33:40 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:34:53 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:36:06 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:48:49 PM/Thursday, February 24, 2022 : User admin logged in.
+ Info : 3:48:51 PM/Thursday, February 24, 2022 : User admin dumped the log through the menu
+ Info : 3:48:51 PM/Thursday, February 24, 2022 : User admin listed all users through the menu
+ Info : 3:49:00 PM/Thursday, February 24, 2022 : User - admin changed the role for user uname1 to Admin
+ Info : 3:49:02 PM/Thursday, February 24, 2022 : User admin listed all users through the menu
+ Info : 3:49:14 PM/Thursday, February 24, 2022 : User admin dumped the log through the menu
