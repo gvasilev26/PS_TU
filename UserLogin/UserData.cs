@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace UserLogin
 {
@@ -31,9 +32,8 @@ namespace UserLogin
             if (_testUsers != null) return;
             _testUsers = new List<User>
             {
-                new User("Miroslav", "test123", "121219041", UserRoles.Admin),
-                new User("Goshy", "test234", "121219234", UserRoles.Student),
-                new User("Ivancho", "test012", "121219012", UserRoles.Student)
+                new User("Georgi", "Test123!", "121219040", UserRoles.Admin),
+                new User("Sasho", "test234", "121219234", UserRoles.Student),
             };
         }
 

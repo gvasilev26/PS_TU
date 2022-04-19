@@ -1,11 +1,13 @@
 ﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using StudentInfoSystem;
 
 namespace StudentInfoSystem;
 
 public static class StudentData
 {
-    public static List<Student> TestStudents { get; } = new()
+    public static ObservableCollection<Student> TestStudents { get; } = new()
     {
-        new Student("Miroslav", "Mladenov", "Mihaylov", "FKST", "KSI", "Middle", "Assigned", "121219041", 6, 2, 30)
+        new Student("Georgi", "Rumenov", "Vasilev", "FKST", "KSI", "Middle", "Assigned", "121219040", 6, 2, 30)
     };
 }
