@@ -1,15 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using MinimalMVVM.ViewModel;
 
 namespace MinimalMVVM.View
 {
@@ -18,9 +9,19 @@ namespace MinimalMVVM.View
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool _isUpper = true;
+        private readonly UpperCasePresenter _upperCasePresenter = new UpperCasePresenter();
+        private readonly LowerCasePresenter _lowerCasePresenter = new LowerCasePresenter();
         public MainWindow()
         {
+            DataContext = _upperCasePresenter;
             InitializeComponent();
+        }
+
+        private void ChangeViewModel(object sender, RoutedEventArgs routedEventArgs)
+        {
+            _isUpper = !_isUpper;
+            DataContext = _isUpper ? (object) _upperCasePresenter : _lowerCasePresenter;
         }
     }
 }
