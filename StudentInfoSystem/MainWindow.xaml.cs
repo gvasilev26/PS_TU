@@ -28,11 +28,6 @@ namespace StudentInfoSystem
                 tb.Text = "";
         }
 
-        private void Login(object sender, RoutedEventArgs e)
-        {
-            DataContext = new StudentPresenter(FirstNameField.Text, FacNumField.Text);
-        }
-
         private void DisableFieldsHandler(object sender, RoutedEventArgs e)
         {
             foreach(var tb in PersonalInformation.Children.OfType<TextBox>())

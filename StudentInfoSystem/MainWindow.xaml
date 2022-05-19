@@ -14,18 +14,18 @@
             <Label Content="First name:" HorizontalAlignment="Left" Margin="10,30, 0, 0" VerticalAlignment="Top"
                    Height="25"
                    Width="120" />
-            <TextBox x:Name="FirstNameField" HorizontalAlignment="Left" Margin="110,30, 0, 0"
+            <TextBox Text="{Binding LoginFirstName, Mode=TwoWay}" HorizontalAlignment="Left" Margin="110,30, 0, 0"
                      TextWrapping="Wrap"
                      VerticalAlignment="Top" Width="160" Height="25" />
             <Label Content="Fac number:" HorizontalAlignment="Left" Margin="10,90, 0, 0" VerticalAlignment="Top"
                    Height="25"
                    Width="120" />
-            <TextBox x:Name="FacNumField" HorizontalAlignment="Left" Margin="110,90, 0, 0"
+            <TextBox Text="{Binding LoginFacNum, Mode=TwoWay}" HorizontalAlignment="Left" Margin="110,90, 0, 0"
                      TextWrapping="Wrap"
                      VerticalAlignment="Top" Width="160" Height="25" />
             <Button Content="Login" HorizontalAlignment="Left" Margin="110,120, 0, 0"
                     VerticalAlignment="Top"
-                    Width="100" Height="26" Click="Login" />
+                    Width="100" Height="26" Command="{Binding LoginCommand}" />
         </Grid>
         <Grid Grid.Column="1">
             <GroupBox Header="Personal Information" Margin="10, 10, 10, 0" Height="120" Width="580"
